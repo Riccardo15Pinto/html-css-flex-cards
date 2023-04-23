@@ -13,6 +13,9 @@
     width: 1200px;
 }
 
+body{
+    font-family: 'Fredoka', sans-serif;
+}
 header{
     display: flex;
     justify-content: center;
@@ -29,6 +32,10 @@ p{
     text-align: center;
 }
 
+a{
+    text-decoration-line: none;
+    color: #65C6D0;
+}
 .column{
     width: calc( 100% / 3 );
     padding: 10px;
