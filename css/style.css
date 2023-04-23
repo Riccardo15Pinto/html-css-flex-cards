@@ -63,5 +63,5 @@ a{
 
 .row{
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin: 50px -10px;
 }
