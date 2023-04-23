@@ -29,6 +29,32 @@ p{
     text-align: center;
 }
 
+.column{
+    width: calc( 100% / 3 );
+    padding: 10px;
+}
 
 
-/* utility */
+.card{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.image-content, .card-image{
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.card-content{
+    padding: 10px;
+    line-height: calc(80px / 3);
+}
+
+.row{
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
